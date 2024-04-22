@@ -1,4 +1,4 @@
-package com.example.ms1.note.note;
+package com.example.ms1.note;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
