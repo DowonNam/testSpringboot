@@ -1,4 +1,7 @@
 package com.example.ms1.Notebook;
 
-public interface NotebookRepository {
+import com.example.ms1.note.NoteRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NotebookRepository extends JpaRepository<Notebook,Long> {
 }
